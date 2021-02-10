@@ -3,9 +3,15 @@
     "target": "es6",
     "removeComments": true,
     "sourceMap": true,
-    "moduleResolution": "node"
+    "moduleResolution": "node",
   },
   "include": [
     "**/*.ts"
   ],
+  "typeRoots": [
+    "./node_modules/phaser/types"
+  ],
+  "types": [
+    "Phaser"
+  ]
 }
